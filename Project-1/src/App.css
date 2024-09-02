@@ -1,0 +1,690 @@
+.main{
+  background-color: white;
+  height: 120px;
+  /* border: 1px solid; */
+  display: flex;
+  justify-content:space-around ;
+}
+.main .logo{
+  height: 80px;
+  /* border: 1px solid; */
+  width: 250px;
+  margin: 1%;
+  padding: 1%;
+}
+.main .div1{
+  height: 40px;
+  /* border: 1px solid; */
+  width: 800px;
+  margin-top: 4%;
+  margin-left: -10%;
+}
+
+.main .div1 a{
+  font-size: 18px;
+  padding: 3%;
+  text-decoration: none;
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.main .icn{
+  height: 80px;
+  /* border: 1px solid; */
+  width: 300px;
+  margin-top: 1%;
+  margin-left: -10%;
+
+}
+.main .icn i{
+  font-size: 20px;
+  padding: 9%;
+  margin-top: 5%;
+}
+.main1{
+  height: 500px;
+  /* border: 1px solid; */
+  background-image: url(https://themeholy.com/html/frutin/demo/assets/img/hero/hero_bg_1_2.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-top: 15%;
+  display: flex;
+}
+.main1 .txt{
+  height: 400px;
+  /* border: 1px solid; */
+  width: 700px;
+  margin-left: 10%;
+  padding-bottom: 5%;
+}
+.main1 .txt .p1{
+  font-size: 22px;
+  color: #FF9C00;
+  font-family: "Lobster", sans-serif;
+  margin-left: 8%;
+  margin-top: -4%;
+}
+.main1 .txt .img1{
+  margin-left: 2%;
+  /* margin-top: 0%; */
+}
+.main1 .txt .p2{
+  font-size: 100px;
+  text-transform: capitalize;
+  word-spacing: 5px;
+  letter-spacing: 6px;
+  margin-top: -4%;
+  margin-left: 2%;
+  /* border: 1px solid; */
+  height: 150px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main1 .txt .img2{
+  margin-left: 82%;
+  margin-top: -5%;
+}
+.main1 .txt span{
+  color: #017D03;
+}
+.main1 .txt button{
+  height: 60px;
+  width: 260px;
+  margin-left: 3%;
+  background-color: #017D03;
+  color: white;
+  font-size: 18px;
+  border-radius: 30px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border: none;
+  font-weight: 700;
+}
+.main1 .txt button i{
+  margin-left: 2%;
+}
+.main1 .pic{
+  height: 600px;
+  margin-top: -8%;
+  margin-left: -2%;
+  width: 630px;
+}
+.main1 .pic img{
+  height: 600px;
+}
+.main1 .pic:hover img{
+  display: none;
+}
+.main1 .pic:hover{
+  background-image: url(https://themeholy.com/html/frutin/demo/assets/img/hero/hero_1_3.png);
+  background-position: center;
+  background-size: cover;
+}
+.main2{
+  height: 600px;
+  /* border: 1px solid; */
+}
+.main2 .txt{
+  height: 100px;
+  /* border: 1px solid; */
+  margin-top: 5%;
+}
+.main2 .txt .p1{
+  font-size: 25px;
+  color: #FF9C00;
+  font-family: "Lobster", sans-serif;
+  margin-top: -2%;
+  text-align: center;
+}
+.main2 .txt .img1{
+  margin-left:42%;
+  margin-top: -3%;
+  /* text-align: center; */
+  height: 25px;
+}
+.main2 .txt .p2{
+  font-size: 50px;
+  text-align: center;
+  font-family: Ramabhadra;
+  font-weight: bolder;
+  margin-top: 1%;
+}
+.main2 .row{
+  /* height: 400px; */
+  /* border: 1px solid; */
+  display: flex;
+  justify-content:space-evenly;
+  width: 90%;
+  margin-left:5%;
+}
+.main2 .row .div1{
+  width: 230px;
+  margin-top: 5%;
+  background-color: #F5F7EB;
+}
+.main2 .row div img{
+  background-color: white;
+  padding: 10%;
+  border-radius: 50%;
+
+}
+.main2 .row div{
+  padding-top: 30px;
+  text-align: center;
+  padding-bottom: 30px;
+  background-image: url(https://themeholy.com/html/frutin/demo/assets/img/bg/category_card_bg.png);
+  background-position: center;
+  background-repeat: repeat;
+  transition: 1s;
+
+}
+.main2 .row div:hover{
+  background-color: #017D03;
+  color: white;
+}
+.main2 .row div img:hover{
+  transform: rotate(360deg);
+  transition-duration: 1s;
+
+}
+.main2 .row .div2{
+  width: 230px;
+  margin-top: 5%;
+  background-color: #F5F7EB;
+
+}
+.main2 .row .div3{
+  width: 230px;
+  margin-top: 5%;
+  background-color: #F5F7EB;
+
+}
+.main2 .row .div4{
+  width: 230px;
+  margin-top: 5%;
+  background-color: #F5F7EB;
+
+}
+.main2 .row .div5{
+  width: 230px;
+  margin-top: 5%;
+  background-color: #F5F7EB;
+
+}
+.main3{
+  height: 650px;
+  /* border: 1px solid; */
+  margin-top: -5%;
+  display: flex;
+}
+.main3 .pic{
+  height: 640px;
+  /* border: 1px solid red; */
+  width: 680px;
+  background-image: url(https://themeholy.com/html/frutin/demo/assets/img/normal/about_1_3.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.main3 .pic .img1{
+  margin-left: 45%;
+  margin-top: 10%;
+  border-radius: 10%;
+  z-index: 2;
+  position: relative;
+}
+.main3 .pic .img2{
+  margin-left: 5%;
+  margin-top: -30%;
+  border-radius: 10%;
+
+}
+.main3 .pic .div{
+  height: 170px;
+  /* border: 1px solid; */
+  width: 200px;
+  margin-top: -24%;
+  margin-left: 60%;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.main3 .pic .div .p1{
+  font-size: 60px;
+  margin-top: -5%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #017D03;
+  margin-left: 10%;
+  margin-top: 5%;
+  font-weight: bolder;
+}
+.main3 .pic .div .p2{
+  font-size: 30px;
+  margin-top: -28%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 10%;
+}
+.main3 .txt{
+  height: 600px;
+  /* border: 1px solid; */
+  width: 800px;
+}
+.main3 .txt .p1{
+  font-size: 20px;
+  color: #FF9C00;
+  font-family: "Lobster", sans-serif;
+  margin-top: -3%;
+  margin-left: 7%;
+  word-spacing: 2px;
+}
+.main3 .txt .img1{
+  margin-left:2%;
+  margin-top: 12%;
+  /* text-align: center; */
+  height: 20px;
+}
+.main3 .txt .p2{
+  font-size: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 6%;
+  margin-top: 1%;
+  letter-spacing: 2px;
+}
+.main3 .txt .p3{
+  font-size: 17px;
+  margin-left: 6%;
+  color: gray;
+  margin-top: -3%;
+  line-height: 30px;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+}
+.main3 .txt .photo1{
+  height: 60px;
+  /* border: 1px solid; */
+  width: 250px;
+  margin-left: 6%;
+  background-color: #F5F7EB;
+  border-radius: 10px;
+
+} 
+.main3 .txt .photo2{
+  height: 60px;
+  /* border: 1px solid; */
+  width: 250px;
+  margin-left: 6%;
+  background-color: #F5F7EB;
+  margin-left: 42%;
+  margin-top: -7.8%;
+  border-radius: 10px;
+}
+.main3 .txt .photo1 img{
+  height: 40px;
+  margin: 5%;
+} 
+.main3 .txt .photo2 img{
+  height: 40px;
+  margin: 5%;
+} 
+.main3 .txt .photo1 p{
+  margin-top: -24%;
+  margin-left: 28%;
+  font-size: 18px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-weight: 700;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main3 .txt .photo2 p{
+  margin-top: -24%;
+  margin-left: 28%;
+  font-size: 18px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-weight: 700;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main3 hr{
+  width: 73%;
+  margin-top: 5%;
+  margin-left: 6%;
+}
+.main3 .txt button{
+  height: 60px;
+  width: 260px;
+  margin-left: 6%;
+  background-color: #017D03;
+  color: white;
+  font-size: 18px;
+  border-radius: 30px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border: none;
+  font-weight: 700;
+  margin-top: 2%;
+}
+.main4{
+  height: 450px;
+  /* border: 1px solid; */
+  
+}
+.main4 .pic1{
+  height: 330px;
+  width: 600px;
+  /* border: 1px solid; */
+  background-image:url(https://themeholy.com/html/frutin/demo/assets/img/bg/cta_bg_1_1.jpg) ;
+  background-position: center;
+  background-size: cover;
+  border-radius: 30px;
+  margin-top: 5%;
+  margin-left: 8%;
+}
+.main4 .pic1 .p1{
+  font-size: 22px;
+  margin-left: 0%;
+  padding: 10%;
+  color: #017D03;
+  font-weight: bolder;
+}
+.main4 .pic1 .p2{
+  font-size: 35px;
+  margin-top: -9%;
+  margin-left:7%;
+  line-height: 55px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+}
+
+.main4 .pic1 button{
+  height: 55px;
+  width: 180px;
+  margin-left: 6%;
+  background-color: #017D03;
+  color: white;
+  font-size: 16px;
+  border-radius: 30px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border: none;
+  font-weight: 700;
+  margin-top: -2%;
+}
+.main4 .pic2 .p1{
+  font-size: 22px;
+  margin-left: 0%;
+  padding: 10%;
+  color: #017D03;
+  font-weight: bolder;
+}
+.main4 .pic2 .p2{
+  font-size: 35px;
+  margin-top: -10%;
+  margin-left:7%;
+  line-height: 55px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+}
+.main4 .pic2{
+  height: 330px;
+  width: 600px;
+  /* border: 1px solid; */
+  background-position: center;
+  background-size: cover;
+  border-radius: 30px;
+  margin-top: -23.5%;
+  margin-left: 50%;
+  background-image: url(https://themeholy.com/html/frutin/demo/assets/img/bg/cta_bg_1_2.jpg);
+}
+.main4 .pic2 button{
+  height: 55px;
+  width: 180px;
+  margin-left: 6%;
+  background-color: #017D03;
+  color: white;
+  font-size: 16px;
+  border-radius: 30px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border: none;
+  font-weight: 700;
+  margin-top: -2%;
+}
+.sub{
+  height: 150px;
+  width: 80%;
+  background-color: #017D03;
+  border-radius: 20px;
+  position: absolute;
+  margin-left: 9%;
+}
+.sub .txt{
+  height: 200px;
+  /* border: 1px solid; */
+ margin-top: -8%;
+
+}
+.sub .txt p{
+  text-align: start;
+  margin-left: 5%;
+  font-size: 30px;
+  padding-top: -6%;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 40px;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+}
+.sub input{
+  height: 50px;
+  width: 370px;
+  margin-top: 4%;
+  margin-left: 20%;
+  border-radius: 10px;
+  border: none;
+  font-size: 17px;
+}
+.sub button{
+  height: 50px;
+  width: 180px;
+  background-color: black;
+  margin-left: -6%;
+  margin-top: 4%;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 15px;
+  letter-spacing: 2px;
+}
+.sub .div1{
+  height: 60px;
+  width: 300px;
+  /* border: 1px solid white; */
+  margin-left: 70%;
+  margin-top: -5.2%;
+}
+.footer{
+  height: 450px;
+  background-color: black;
+  margin-top: 3%;
+  background-image: url(https://themeholy.com/html/frutin/demo/assets/img/bg/footer_bg_1.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+}
+.footer .div1{
+  height: 350px;
+  width: 430px;
+  /* border: 1px solid white; */
+  margin-top: 6%;
+  position: absolute;
+  margin-left: 5%;
+}
+.footer .div2{
+  height: 350px;
+  width: 250px;
+  /* border: 1px solid white; */
+  margin-top: 6%;
+  position: absolute;
+  margin-left: 33%;
+}
+.footer .div3{
+  height: 350px;
+  width: 350px;
+  /* border: 1px solid white; */
+  margin-top: 6%;
+  position: absolute;
+  margin-left: 50%;
+}
+.footer .div4{
+  height: 350px;
+  width: 400px;
+  /* border: 1px solid white; */
+  margin-top: 5.7%;
+  position: absolute;
+  margin-left: 73%;
+}
+.footer .div1 img{
+  margin-left: 10%;
+  padding: 8%;
+}
+.footer p{
+  color: #5c6377;
+  margin-left: 18%;
+  line-height: 25px;
+  margin-top: -2%;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  font-size: 17px;
+}
+.footer .div1 .icn{
+  height: 60px;
+  width: 330px;
+  /* border: 1px solid white; */
+  margin-left: 13%;
+}
+.footer .div1 .icn i{
+  font-size: 18px;
+  background-color: #1F2432;
+  padding: 4%;
+  margin-left: 5%;
+  color: white;
+  border-radius: 10px;
+  transition: 1s;
+}
+.footer .div1 .icn i:hover{
+  background-color: #017D03;
+  transition-duration: 1s;
+}
+.footer .div2 img{
+  padding: 20%;
+  height: 25px;
+  margin-left: -15%;
+}
+.footer .div2 .q1{
+  color: white;
+  margin-top: -30%;
+  font-size: 20px;
+  margin-left: 25%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+.footer .div3 img{
+  padding: 15%;
+  height: 25px;
+  margin-left: -5%;
+}
+.footer .div3 .q1{
+  color: white;
+  margin-top: -24%;
+  font-size: 20px;
+  margin-left: 25%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+.footer .div4 img{
+  padding: 15%;
+  height: 25px;
+  margin-left: -15%;
+  margin-top: -3%;
+}
+.footer .div4 .q1{
+  color: white;
+  margin-top: -21%;
+  font-size: 20px;
+  margin-left: 15%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+.footer .div2 li{
+  color: #5c6377;
+  margin-left: 15%;
+  line-height: 35px;
+  font-size: 18px;
+}
+.footer .div2 li:hover{
+  color: #017D03;
+}
+.footer .div3 i{
+  color: orange;
+  padding: 3%;
+  background-color: #1B1B1D;
+  margin-left: 13%;
+  border-radius: 10px;
+}
+.footer .div3 .p1{
+  margin-top: -11%;
+  margin-left: 25%;
+  font-size: 15px;
+  /* position: relative; */
+}
+.footer .div3 .p2{
+  margin-top: -11%;
+  margin-left: 25%;
+  font-size: 15px;
+  /* position: relative; */
+}
+.footer .div3 p{
+  margin-top: -8%;
+  margin-left: 25%;
+  font-size: 15px;
+  /* position: relative; */
+}
+.footer .div4 .img{
+  height: 200px;
+  width: 350px;
+  /* border: 1px solid white; */
+  margin-top: -10%;
+  margin-left: 10%;
+}
+.footer .div4 .img .p1{
+  height: 80px;
+  padding: 14%;
+  
+}
+.footer .div4 .img .p2{
+  height: 80px;
+  padding: 5%;
+  top: -15%;
+  position: relative;
+}
+.footer .div4 .img .p3{
+  height: 80px;
+  margin-top: -27%;
+  
+}
+.footer .div4 .img .p4{
+  height: 80px;
+  padding: 5%;
+  top: -15%;
+  position: relative;
+ margin-top: -27%;
+ margin-left: -17%;
+  
+}

@@ -1,0 +1,93 @@
+body{
+  text-align: center;
+  background-position: center;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.9) , rgba(0, 0, 0, 0.6)), url(https://img.freepik.com/free-photo/high-angle-alphabet-letters-podium-education-day_23-2149241035.jpg?t=st=1725441980~exp=1725445580~hmac=34985fb9e0186e483ff77937ce631912346183a5918b091b02631a1c13084d2a&w=996);
+  background-size: cover;
+  height: 100vh;
+}
+.main{
+  text-align: center;
+  width: 100%;
+}
+h1{
+  -webkit-text-fill-color: transparent;
+  background: url(https://img.freepik.com/free-photo/view-beautiful-rainbow-appearing-end-road_23-2151562950.jpg?t=st=1725442537~exp=1725446137~hmac=118e478e7670cccae0edc4185449b73ac6bd887b5128aff5582d77357fc0cbb0&w=996) 50% 50%;
+  -webkit-background-clip: text;
+  background-size: cover;
+  font-size: 90px;
+  /* margin-top: -5%; */
+}
+h2{
+  font-size: 100px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+  -webkit-text-fill-color: transparent;
+  background: url(https://thumbs.dreamstime.com/b/pastel-blue-gradient-background-wallpaper-gold-glitter-phone-background-aspect-ratio-d-effect-pastel-blue-gradient-background-284427237.jpg) 50% 30%;
+  -webkit-background-clip: text;
+  background-size: cover;
+
+
+}
+.btn::before {
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.btn::after {
+  background: rgb(8, 70, 97);
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.btn:hover:after {
+  height: 0;
+  left: 50%;
+  top: 50%;
+  width: 0;
+}
+button,
+button::after {
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+button {
+  background: none;
+  border: 3px solid #fff;
+  border-radius: 5px;
+  height: 50px;
+  width: 130px;
+  color: #fff;
+  display: block;
+  /* font-size: 1.6em; */
+  font-weight: bold;
+  margin: 1em auto;
+  /* padding: 2em 6em; */
+  position: relative;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+button::before,
+button::after {
+  background: transparent;
+  content: '';
+  position: absolute;
+  z-index: -1;
+}
+
+button:hover {
+  color: rgb(157, 197, 214);
+}
+.btnbox{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin-left: 25%;
+}

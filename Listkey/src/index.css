@@ -1,0 +1,64 @@
+body{
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  background-image: url(https://img.freepik.com/free-photo/top-view-butterflies-with-copy-space_23-2151010829.jpg?t=st=1725879332~exp=1725882932~hmac=afeffb0745faea6e0a0620ef709b7632a21b43cbe7d750bb7f511d1f2f4b201a&w=1380);
+  height: 550px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input{
+  height: 40px;
+  width: 300px;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid;
+}
+div{
+  /* border: 1px solid; */
+}
+#d1{
+  /* border: 1px solid; */
+  width: 30%;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+#d2{
+  /* border: 1px solid; */
+  width: 30%;
+  margin-top: -23%;
+  margin-left: 35%;
+}
+button{
+  height: 50px;
+  width: 220px;
+  font-size: 26px;
+  background-image: url(https://i.pinimg.com/736x/55/6d/10/556d10349717570981081480bd079bfd.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  border: none;
+  transition: 1s;
+}
+button:hover{
+  background-image: url(https://media2.giphy.com/media/7RtkBgYvL5ATS/giphy.gif?cid=6c09b952z2k3b0qvdpvotlewduvgmd46x9iukmc9z099uvo8&ep=v1_gifs_search&rid=giphy.gif&ct=g);
+  background-position: center;
+  background-size: cover;
+  transition-duration: 1s;
+}
+h1{
+  color: rgba(7, 71, 7, 0.872);
+  font-size: 50px;
+}
+#u1{
+  margin-left: 130%;
+  margin-top: -52%;
+}
+#i1{
+  margin-left: 120%;
+  /* margin-top: -38%; */
+
+}
+p{
+  font-size: 20px;
+  color: rgb(9, 154, 9);
+}

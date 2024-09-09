@@ -18,6 +18,9 @@ input{
   width: 300px;
   margin-top: 2%;
   padding-left: 1%;
+  border-bottom: 2px solid;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 button{
   height: 50px;
@@ -25,8 +28,17 @@ button{
   margin-top: 2%;
   background-color: rgb(149, 217, 234);
   border: none;
-  color:black;
+  color:white;
+  font-weight: bolder;
   font-size: 20px;
   border-radius: 40px;
+  -webkit-background-clip: text;
+  transition: 1s;
+  background: url(https://st4.depositphotos.com/13324256/21974/i/450/depositphotos_219748464-stock-photo-beautiful-calm-clean-water-drops.jpg)50% 50%;
 
+}
+button:hover{
+  -webkit-background-clip: text;
+  background: url(https://media.gettyimages.com/id/1473180516/video/4k-abstract-particle-wave-bokeh-background-purple-beautiful-glitter-loop-stock-video.jpg?s=640x640&k=20&c=bdZP_Xs0wdTsRvQtdkGnIOKr0LpTR-FxmqznLkx3_RU=) 50% 50%;
+  transition-duration: 1s;
 }

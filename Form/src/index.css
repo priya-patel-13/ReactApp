@@ -1,0 +1,62 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body{
+  text-align: center;
+  margin-top: 15%;
+  /* background-color: rgb(65, 63, 63); */
+  color: red;
+  background-size: cover;
+  background-position: center;
+  height: 650px;
+  background-image: url(https://img.freepik.com/free-vector/winter-flowers-background-with-empty-badge_23-2148355934.jpg?t=st=1726041881~exp=1726045481~hmac=b63471fc8d52bb1598777820e36ee1b50627626afa745d50ab268a082b297fbd&w=996);
+}
+form{
+  /* border: 1px solid white; */
+  width: 30%;
+  height: 470px;
+  margin-left: 35%;
+  padding: 5%;
+  margin-top: -2%;
+  box-shadow: rgba(4, 36, 242, 0.25) 0px 54px 55px, rgba(64, 7, 235, 0.12) 0px -12px 30px, rgba(168, 161, 161, 0.12) 0px 4px 6px, rgba(168, 161, 161, 0.12) 0px 12px 13px, rgba(54, 5, 233, 0.12) 0px -3px 5px;
+}
+h1{
+  /* line-height: 10px; */
+  color: navy;
+  margin-top: -12%;
+}
+#l1{
+  font-size: 20px;
+  margin: 5%;
+  
+}
+#p1{
+  font-size: 20px;
+  margin: 2%;
+}
+button{
+  height: 40px;
+  width: 200px;
+  margin: 2%;
+  background-position: center;
+  background-size: cover;
+  color: rgb(241, 242, 249);
+  font-size: 25px;
+  transition: 1s;
+  font-weight: bolder;
+  background-image: url(https://w0.peakpx.com/wallpaper/656/1000/HD-wallpaper-bubble-black-blue.jpg);
+  
+}
+button:hover{
+  background-position: center;
+  background-size: cover;
+  transition-duration: 1s;
+  background-image: url(https://i.gifer.com/embedded/download/QON.gif);
+}
+input{
+  height: 35px;
+  width: 250px;
+  margin-top: 5%;
+}

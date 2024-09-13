@@ -7,10 +7,10 @@ body{
   text-align: center;
   margin-top: 15%;
   /* background-color: rgb(65, 63, 63); */
-  color: red;
+  color: rgb(7, 19, 188);
   background-size: cover;
   background-position: center;
-  height: 650px;
+  height: 600px;
   background-image: url(https://img.freepik.com/free-vector/winter-flowers-background-with-empty-badge_23-2148355934.jpg?t=st=1726041881~exp=1726045481~hmac=b63471fc8d52bb1598777820e36ee1b50627626afa745d50ab268a082b297fbd&w=996);
 }
 form{
@@ -18,14 +18,20 @@ form{
   width: 30%;
   height: 470px;
   margin-left: 35%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   padding: 5%;
-  margin-top: -2%;
+  margin-top: -5%;
+  background-size: cover;
+  background-position: center;
+  background-image: url(https://previews.123rf.com/images/ivan101/ivan1011803/ivan101180300127/98107293-hojas-tropicales-y-palmeras-en-vibrantes-colores-hologr%C3%A1ficos-degradados-arte-conceptual-m%C3%ADnimo.jpg);
   box-shadow: rgba(4, 36, 242, 0.25) 0px 54px 55px, rgba(64, 7, 235, 0.12) 0px -12px 30px, rgba(168, 161, 161, 0.12) 0px 4px 6px, rgba(168, 161, 161, 0.12) 0px 12px 13px, rgba(54, 5, 233, 0.12) 0px -3px 5px;
 }
 h1{
   /* line-height: 10px; */
   color: navy;
   margin-top: -12%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: underline;
 }
 #l1{
   font-size: 20px;

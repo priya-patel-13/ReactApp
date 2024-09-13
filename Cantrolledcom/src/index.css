@@ -1,0 +1,99 @@
+body{
+  text-align: center;
+  margin-top: 12%;
+  background-image: url(https://img.freepik.com/free-vector/gradient-black-backgrounds-with-golden-frames_52683-76892.jpg?t=st=1726210167~exp=1726213767~hmac=8137b2daac62150154dcbb9013f995011b6bf20d50ff429e04b4cfae0c4b7bc1&w=996);
+  background-position: center;
+  background-size:cover ;
+  color: white;
+  height: 500px;
+}
+input{
+  height: 40px;
+  width: 270px;
+  padding-left: 1%;
+  border: none;
+  border-bottom: 2px solid #DBAD27;
+  background-color: transparent;
+  color: #CFA469;
+}
+/* button{
+  height: 50px;
+  width: 200px;
+  margin-top: 3%;
+  
+} */
+
+
+button
+{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 180px;
+  height: 50px;
+  background: transparent;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 50px;
+  color: #CFA469;
+  font-weight: bolder;
+  font-size: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  letter-spacing: 4px;
+/*    border-radius: 20px; */
+}
+
+button:before,
+button:after,
+span:before,
+span:after
+{
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 5px;
+  background: rgb(170, 126, 13);
+  transition: 1s;
+  mix-blend-mode: hue;
+}
+
+button:before
+{
+  top: -2px;
+  left: -2px
+}
+button:after
+{
+  top: -2px;
+  right: -2px;
+}
+span:before
+{
+  bottom: -2px;
+  left: -2px
+}
+span:after
+{
+  bottom: -2px;
+  right: -2px
+}
+
+button:hover:before,
+button:hover:after,
+button:hover span:before,
+button:hover span:after
+{
+  width: calc( 150px/2 );
+  height: calc( 10px/2 )
+}
+
+h1{
+  background: url(https://png.pngtree.com/thumb_back/fh260/background/20231229/pngtree-glistening-gold-glitter-confetti-background-with-shimmering-stars-a-festive-white-image_13908669.png);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 45px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+}

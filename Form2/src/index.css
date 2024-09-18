@@ -1,0 +1,115 @@
+body{
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  color: navy;
+  height: 1800px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  background-image: url(https://img.freepik.com/free-vector/realistic-spring-background_23-2149266012.jpg?t=st=1726645995~exp=1726649595~hmac=9fac09c6d608f54d6c0d6b5909233d0185635bdc984e1a047697ff4a812a2e13&w=996);
+}
+/* .main{
+  width: 40%;
+  border: 1px solid;
+  margin-left: 30%;
+} */
+
+.img1{
+  height: 250px;
+}
+.img2{
+    height: 300px;
+}
+.in1{
+  width: 80%;
+  height: 40px;
+  padding-left: 10px;
+  border: 0px;
+  border-bottom: 1px solid ;
+  color: rgb(76, 0, 255);
+}
+.col{
+  padding: 20px;
+  text-align: center;
+}
+button{
+  margin-top: 10px;
+}
+span{
+  color: red
+}
+.logo{
+  height: 200px;
+}
+form{
+  text-align: left;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.form{
+  width: 40%;
+  margin-left: 30%;
+  padding: 10px;
+  text-align: center;
+}
+.input-container input{
+  width: 60%;
+}
+label{
+  font-size: 24px;
+  font-weight: bolder;
+  margin-left: 1%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input{
+  background: transparent;
+  border-bottom: 1px solid;
+  border: 0px;
+
+}
+select{
+  height: 45px;
+  width: 200px;
+  margin-left: -5%;
+  margin-top: -20%;
+  padding-left: 5%;
+  background-color: green;
+  color: lightgreen;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+option{
+  background-color: white;
+  color:black;
+}
+.input-container input{
+  height: 40px;
+  border: 0px;
+  border-bottom: 1px solid;
+  padding-left: 2%;
+  color: navy;
+}
+button{
+  height: 50px;
+  width: 210px;
+  background-image: url(https://img.freepik.com/free-photo/3d-green-leaves-defocussed-blue-background_1048-10660.jpg?t=st=1726645746~exp=1726649346~hmac=953412ef8eec4ca02293f1d208b798fcd30c5a48505d57a3353dc2ec7ce2c14b&w=900);
+  background-position: center;
+  background-size: cover;
+  color: navy;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  padding-top: 2%;
+  border: none;
+}
+.main{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background-image: url(https://img.freepik.com/free-vector/realistic-spring-landscape-with-blurry-elements_23-2148859164.jpg?t=st=1726646383~exp=1726649983~hmac=27ea518e0d3088b0d1917364156352d37711776083ddf0f7e02cdf52aa430e0e&w=996);
+  background-position: center;
+  background-size: cover;
+}
+.container{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}

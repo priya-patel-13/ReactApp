@@ -1,0 +1,76 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.logo{
+  /* border: 1px solid; */
+  margin-left: 10%;
+  
+}
+nav{
+  /* border: 1px solid; */
+  width: 95%;
+
+}
+.me-auto{
+  font-size: 20px;
+  text-align: center;
+  /* border: 1px solid red; */
+  width: 50%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+  font-weight: bolder;
+  margin-left: 12%;
+  display: flex;
+  justify-content: space-between;
+  /* word-spacing: 5px; */
+  padding-left: 5%;
+}
+.slide1{
+  /* border: 1px solid; */
+  width: 40%;
+  margin-left: 35%;
+  /* padding-bottom: 20%; */
+  margin-bottom: 8%;
+  text-align: left;
+}
+.slide1 h5{
+  font-size: 22px;
+  font-family: 'Times New Roman', Times, serif;
+  word-spacing: 8px;
+  letter-spacing: 3px;
+  line-height: 50px;
+  /* border: 1px solid; */
+}
+.slide1 h1{
+  color: #4A8601;
+  font-family: "Lemon", serif;
+  font-size: 55px;
+  line-height: 70px;
+  /* border: 1px solid; */
+
+}
+.slide1 h2{
+  color: #89C74A;
+  font-family: "Lemon", serif;
+  font-size: 35px;
+  word-spacing: 3px;
+  letter-spacing: 2px;
+  /* border: 1px solid; */
+  line-height: 70px;
+}
+.slide1 button{
+  height: 45px;
+  width: 150px;
+  line-height: 20px;
+  background-color: #89C74A;
+  border-radius: 30px;
+  border: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 1px;
+}
+.slide1 button:hover{
+  background-color: #FF8603;
+  
+}

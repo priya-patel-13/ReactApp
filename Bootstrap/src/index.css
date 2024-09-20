@@ -72,5 +72,58 @@ nav{
 }
 .slide1 button:hover{
   background-color: #FF8603;
-  
+
+}
+.slide2{
+    /* border: 1px solid; */
+    width: 40%;
+    margin-left: 20%;
+    /* padding-bottom: 20%; */
+    margin-bottom: 8%;
+    text-align: left;
+}
+.slide2 h5{
+  font-size: 22px;
+  font-family: 'Times New Roman', Times, serif;
+  word-spacing: 8px;
+  letter-spacing: 3px;
+  line-height: 50px;
+  /* border: 1px solid; */
+  text-align: center;
+
+}
+.slide2 h1{
+  color: #E7160E;
+  font-family: "Lemon", serif;
+  font-size: 55px;
+  line-height: 70px;
+  /* border: 1px solid; */
+  text-align: center;
+
+}
+.slide2 h2{
+  color: #89C74A;
+  font-family: "Lemon", serif;
+  font-size: 35px;
+  word-spacing: 3px;
+  letter-spacing: 2px;
+  /* border: 1px solid; */
+  line-height: 70px;
+  text-align: center;
+
+}
+.slide2 button{
+  height: 45px;
+  width: 150px;
+  line-height: 20px;
+  background-color: #89C74A;
+  border-radius: 30px;
+  border: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 1px;
+  margin-left: 30%;
+}
+.slide2 button:hover{
+  background-color: #FF8603;
+
 }

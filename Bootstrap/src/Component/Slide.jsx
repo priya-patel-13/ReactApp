@@ -26,9 +26,12 @@ export default function Slide() {
           src="http://groca.vedicthemes.com/catalog/view/theme/groca/image/slider-1.jpg"
           alt="Second slide"
         />
-        <Carousel.Caption>
-          <h5>Second slide label</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <Carousel.Caption className='slide1'>
+        <h5>Natural Health Care Ingredients</h5>
+          <h1 style={{color : "#D08126"}}>Grocery Shopping   </h1>
+           <h2>Save up 30% off</h2><br />
+           <button className='m-1'>Shop Now</button>
+
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -37,11 +40,11 @@ export default function Slide() {
           src="http://groca.vedicthemes.com/catalog/view/theme/groca/image/slider-2.jpg"
           alt="Third slide"
         />
-        <Carousel.Caption>
-          <h5>Third slide label</h5>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+        <Carousel.Caption className='slide2'>
+        <h5>Natural Health Care Ingredients</h5>
+          <h1>Grocery Shopping   </h1>
+           <h2>Save up 30% off</h2><br />
+           <button>Shop Now</button>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

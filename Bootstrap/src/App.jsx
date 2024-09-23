@@ -8,6 +8,7 @@ export default function App() {
     <div>
       <StyleBoot/>
       <Slide/>
+     
     </div>
   )
 }

@@ -2,100 +2,103 @@ import React, { useEffect, useState } from 'react'
 
 export default function Crud() {
 
-    const [name, setName] = useState("")
-    const [sub, setSub] = useState("")
-    const [city, setCity] = useState("")
+   const [name , setName] = useState("");
+   const [sarname , setSarname] = useState("");
+   const [city , setCity] = useState("");
 
-    const [record, setRecord] = useState(null)
-    const [editIndex, setEditindex] = useState("")
+   const [record , setRecord] = useState(null);
+   const [editIndex , setEditIndex] = useState("");
+    
+   useEffect(() =>{
+    let data = JSON.parse(localStorage.getItem("Student")) || [];
+     setRecord(data)
+   }, [])
 
 
-    useEffect(() => {
-        let data = JSON.parse(localStorage.getItem("student")) || []
-        setRecord(data)
-    }, [])
+   const handleAdd = () =>{
+    let user = {id: Date.now() , name , sarname ,city}
+    let  oldrecord = JSON.parse(localStorage.getItem("Student")) || []
+     if(editIndex){
+        let singleData = record.find((item) => item.id == editIndex);
+        singleData.id = editIndex
+        singleData.name = name
+        singleData.sarname = sarname
+        singleData.city = city
+        localStorage.setItem("Student" , JSON.stringify(record))
+        setEditIndex(null)
 
-
-    const handleAdd = () => {
-
-        let user = {
-            id: Date.now(),
-            name,
-            sub,
-            city
-        }
-
-        let oldrecord = JSON.parse(localStorage.getItem("student")) || []
+     }
+     else {
         oldrecord.push(user)
         setRecord(oldrecord)
+        localStorage.setItem("Student" , JSON.stringify(oldrecord))   
+     }
 
-        localStorage.setItem("student", JSON.stringify(oldrecord))
+    setName("");
+    setSarname("");
+    setCity("");
+}
+    const handleDelete = (id) =>{
+        let deleteData = record.filter((item) => item.id != id);
+        setRecord(deleteData)
+        localStorage.setItem("Student" , JSON.stringify(deleteData));
+    
 
-        setName("")
-        setSub("")
-        setCity("")
 
     }
 
-    const Delet = (id) => {
-        let DeletData = record.filter((el) => el.id != id);
-        setRecord(DeletData)
-        localStorage.setItem("student", JSON.stringify(DeletData))
-    }
+    const  handleEdit = (id) =>{
+        let singleData = record.find((item) => item.id == id);
+        setName(singleData.name)
+        setSarname(singleData.sarname)
+        setCity(singleData.city)
+        setEditIndex(id)
 
-    const Edit = (id) => {
-        let SingleData = record.find((el) => el.id == id)
-        setName(SingleData.name)
-        setSub(SingleData.sub)
-        setCity(SingleData.city)
-        setEditindex(id)
-    }
+    
+
+}
 
 
+  return (
+    <div>
+        
+        <input type="text" placeholder='Enter Name' onChange={(e) => setName (e.target.value)}  />
+        <input type="text" placeholder='Enter Sarname'  onChange={(e) => setSarname (e.target.value)}/>
+        <input type="text" placeholder='Enter City'  onChange={(e) => setCity (e.target.value)}/>
 
-    return (
-        <div>
-            <h1>CRUD</h1>
-            <input type="text" value={name} placeholder='Enter Name' onChange={(e) => setName(e.target.value)} /> <br />
-            <input type="text" value={sub} placeholder='Enter Subject' onChange={(e) => setSub(e.target.value)} /> <br />
-            <input type="text" value={city} placeholder='Enter City' onChange={(e) => setCity(e.target.value)} /> <br />
+        <button onClick={handleAdd}>{editIndex ? "Update" : "Add"}</button>
 
-            <button className='btn1' onClick={handleAdd}>Add Data</button>
+        <table border= '1' width="90%">
+               <thead>
+                <tr>
+                    <th>id</th>
+                    <th>name</th>
+                    <th>sarname</th>
+                    <th>city</th>
+                    <th colSpan={2}>Action</th>
+                </tr>
+               </thead>
 
-            <table border='1' cellpadding='10' cellspacing='20'>
-                <thead>
-                    <tr>
-                        <th>Id</th>
-                        <th>Name</th>
-                        <th>Subject</th>
-                        <th>City</th>
-                        <th>Action</th>
-                    </tr>
-                </thead>
-                <tbody>
+               <tbody>
+                {
+                    record ?
+                        record.map((e , i ) =>{
+                            return <tr key={i} >
+                                <td>{e.id}</td>
+                                <td>{e.name}</td>
+                                <td>{e.sarname}</td>
+                                <td>{e.city}</td>
+                                <td><button onClick={() => handleEdit(e.id)}>Edit</button>
+                                <button onClick={() => handleDelete(e.id)}>Delete</button></td>
+                            </tr>
+                        })
+                        :
+                        ""
+                }
+               </tbody>
 
-                    {
-                        record ?
-                            record.map((e, i) => {
-                                return <tr key={i}>
-                                    <td>{e.id}</td>
-                                    <td>{e.name}</td>
-                                    <td>{e.sub}</td>
-                                    <td>{e.city}</td>
-                                    <td>
-                                        <button onClick={() => Edit(e.id)}>Edit</button>
-                                        <button onClick={() => Delet(e.id)}>Delete</button>
-                                    </td>
-                                </tr>
-                            })
-                            :
-                            "Enter value"
-                    }
+        </table>
 
-
-                </tbody>
-            </table>
-
-        </div>
-    )
+    </div>
+  )
 }

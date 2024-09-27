@@ -9,11 +9,35 @@ body{
     width: 100%;
     background-position: center;
     background-size: cover;
-    background-image: url();
-    background: url();
+    background-image: url(https://img.freepik.com/free-photo/colorful-tie-dye-background-with-abstract-watercolor-border_53876-104889.jpg?t=st=1727421392~exp=1727424992~hmac=e58c17c110e02f7fe5ac4457f8e29799f3f2b1c61f73b88f5616985f78da6f43&w=996);
 }
 table{
     text-align: center;
-    margin-left: 5%;
-    margin-top: 25%;
+    margin-left: 16%;
+    margin-top: 2%;
+
+}
+tr{
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+input{
+    margin-top: 2%;
+    height: 0px;
+    width: 270px;
+     padding: 1.5%;
+    /* margin-left: 5%;  */
+    border: none;
+    border-bottom: 1px solid;
+    background-color: transparent;
+    font-size: 17px;
+}
+button{
+    height: 40px;
+    width: 150px;
+    background-image: url(https://img.freepik.com/free-photo/colorful-tie-dye-background-with-abstract-watercolor-border_53876-104889.jpg?t=st=1727421392~exp=1727424992~hmac=e58c17c110e02f7fe5ac4457f8e29799f3f2b1c61f73b88f5616985f78da6f43&w=996);
+    background-position: center;
+    background-size: cover;
+    margin-top: 1%;
 }

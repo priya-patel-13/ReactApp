@@ -61,14 +61,14 @@ export default function Crud() {
 
   return (
     <div>
-        
-        <input type="text" placeholder='Enter Name' onChange={(e) => setName (e.target.value)}  />
-        <input type="text" placeholder='Enter Sarname'  onChange={(e) => setSarname (e.target.value)}/>
-        <input type="text" placeholder='Enter City'  onChange={(e) => setCity (e.target.value)}/>
+        <br/><br/><br/><br/>
+        <input type="text" placeholder='Enter Name' onChange={(e) => setName (e.target.value)}  /><br/>
+        <input type="text" placeholder='Enter Sarname'  onChange={(e) => setSarname (e.target.value)}/><br/>
+        <input type="text" placeholder='Enter City'  onChange={(e) => setCity (e.target.value)}/><br/><br/>
 
         <button onClick={handleAdd}>{editIndex ? "Update" : "Add"}</button>
 
-        <table border= '1' width="90%">
+        <table border= '1' width="70%">
                <thead>
                 <tr>
                     <th>id</th>

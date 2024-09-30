@@ -58,12 +58,15 @@ export default function Pro() {
         
     }
      
-    const Com = (id) =>{
-        let data = record.find((el) => el.id == id)
-        setCom(data)
-
-        alert (`The Task is : ${data.task}`)
-    }
+    const CompleteTask = (id) => {
+        const updatedRecord = record.map((el) =>
+            el.id === id ?
+                { ...el, completed: true }
+                : el
+        );
+        setRecord(updatedRecord);
+        localStorage.setItem("Tasks", JSON.stringify(updatedRecord));
+    };
 
 
     return (
@@ -81,10 +84,13 @@ export default function Pro() {
                             record.map((e) => {
                                 return <div className='div1'>
                                     <p>{e.task}</p>
+
+                                    <p className='text2'>{e.completed ? <span className='p1'>Completed</span> :
+                                        <span className='p2'>Pending</span>}</p>
                                     <button onClick={() => Edit(e.id)} id='b1'>
                                     <i class="fa-regular fa-pen-to-square"></i>
                                     </button>
-                                    <button onClick={() => Com (e.id)} id='b2' >
+                                    <button onClick={() => CompleteTask (e.id)} id='b2' >
                                     <i class="fa-regular fa-circle-check"></i>
                                     </button>
                                     <button onClick={() => Delete(e.id)} id='b3'>

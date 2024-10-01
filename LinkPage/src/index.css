@@ -1,0 +1,20 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.link{
+  color: red;
+  /* border: 1px solid; */
+  padding-left: 10%;
+  font-size: 20px;
+}
+.me-auto{
+  /* border: 2px solid; */
+  margin-left: 5%;
+  width: 60%;
+  
+}
+.logo{
+  height: 50px;
+}

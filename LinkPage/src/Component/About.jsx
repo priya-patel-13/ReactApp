@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate, useParams } from 'react-router-dom'
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
@@ -9,6 +9,13 @@ import { FormControl, NavbarBrand, NavbarCollapse, NavbarToggle, NavLink } from 
 
 
 export default function About() {
+ const navigate = useNavigate();
+ const param = useParams();
+
+ const handleBtn = () =>{
+    navigate ("/" , {state: {name : ""}})
+ }
+
   return (
     <>
             <Navbar expand="lg" className="bg-body-tertiary">
@@ -23,7 +30,9 @@ export default function About() {
                             style={{ maxHeight: '100px' }}
                             navbarScroll
                         >
-                            <Link to={"/"}  className='link'>Home</Link>
+                            {/* <h1>{param.id}</h1> */}
+                            <button onClick={handleBtn}> Go to Home</button>
+                            {/* <Link to={"/"}  className='link'>Home</Link> */}
                             <Link to={"/About"} className='link'>About</Link>
                             <Link to={"/Services"} className='link'>Services</Link>
                             <Link to={"/Blog"} className='link'>Blog</Link>

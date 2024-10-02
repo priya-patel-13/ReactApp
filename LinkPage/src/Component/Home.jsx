@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
@@ -9,6 +9,8 @@ import Carousel from 'react-bootstrap/Carousel';
 import { FormControl, NavbarBrand, NavbarCollapse, NavbarToggle, NavLink } from 'react-bootstrap';
 
 export default function Home() {
+    let data = "123-456-789";
+    let location = useLocation();
     return (
         <>
         
@@ -24,7 +26,8 @@ export default function Home() {
                             style={{ maxHeight: '100px' }}
                             navbarScroll
                         >
-                            <Link to={"/About"} className='link'>About</Link>
+                            <h1>{location.state.name}</h1>
+                            <Link to={`/About/${data}`} className='link'>About</Link>
                             <Link to={"/Services"} className='link'>Services</Link>
                             <Link to={"/Blog"} className='link'>Blog</Link>
                             <Link to={"/Gallery"} className='link'>Gallery</Link>

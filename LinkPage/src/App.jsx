@@ -14,7 +14,7 @@ export default function App() {
       <BrowserRouter>
          <Routes>
           <Route path='/' element = {<Home></Home>}></Route>
-          <Route path='/About' element = {<About></About>}></Route>
+          <Route path='/About/:id' element = {<About></About>}></Route>
           <Route path='/Blog' element = {<Blog></Blog>}></Route>
           <Route path='/Gallery' element = {<Gallery></Gallery>}></Route>
           <Route path='/Contact' element = {<Contact></Contact>}></Route>

@@ -5,14 +5,14 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-// import NavDropdown from 'react-bootstrap/NavDropdown';
-// import NavDropdownDivider from 'react-bootstrap/NavDropdownDivider';
+import Carousel from 'react-bootstrap/Carousel';
 import { FormControl, NavbarBrand, NavbarCollapse, NavbarToggle, NavLink } from 'react-bootstrap';
 
 export default function Home() {
     return (
         <>
-            <Navbar expand="lg" className="bg-body-tertiary">
+        
+            <Navbar expand="lg">
                 <Container fluid>
                     <NavbarBrand href="#">
                         <img src="https://graingrowerwp.themesflat.co/wp-content/themes/graingrow/images/logo.png" alt="" className='logo' />
@@ -43,7 +43,38 @@ export default function Home() {
                     </NavbarCollapse>
                 </Container>
             </Navbar>
-
+           
+           <div className="slide">
+           <Carousel data-bs-theme="light">
+    
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://graingrowerwp.themesflat.co/wp-content/uploads/2022/11/bg-sl.jpg"
+          alt="Second slide"
+        />
+        <Carousel.Caption>
+        <center>
+            <h1 className='m-2 p-5'>High Quality Fresh <br /> Organic Products.</h1>
+            <p className='m-2 p-2'>25 years of experience in agriculture farming.</p>
+        </center>
+                </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100 slide-img2"
+          src="https://graingrowerwp.themesflat.co/wp-content/uploads/2022/11/Water-Management.jpg"
+          alt="Third slide"
+        />
+        <Carousel.Caption>
+        <center>
+            <h1 className='m-5 p-1'>High Quality Fresh <br /> Organic Products.</h1>
+            <p className='m-5 p-2'>25 years of experience in agriculture farming.</p>
+        </center>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+           </div>
 
         </>
     )

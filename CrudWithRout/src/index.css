@@ -1,0 +1,52 @@
+
+body{
+  height: 75vh;
+  text-align: center;
+  padding-top: 150px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url();
+}
+
+table{
+   padding: 3%;
+   margin-left: 25%;
+
+}
+thead{
+  height: 55px;
+
+}
+tr{
+  height: 40px;
+}
+button{
+  height: 70px;
+  width: 760px;
+  margin-top: 2%;
+  background-color: transparent;
+  border: none;
+  margin-left: -8%;
+
+}
+button .links{
+  border: 1px solid;
+  margin: 10%;
+  padding: 15px 50px;
+  font-size: 16px;
+}
+
+input{
+  height: 40px;
+  width: 400px;
+  border: none;
+  border-bottom: 1px solid;
+}
+.btn1{
+  height: 40px;
+  border: 1px solid;
+  width: 120px;
+  margin-left: 1%;
+  margin-top: 2%;
+}

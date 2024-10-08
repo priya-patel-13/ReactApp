@@ -31,7 +31,6 @@ export default function About() {
                             navbarScroll
                         >
                             {/* <h1>{param.id}</h1> */}
-                            <button onClick={handleBtn}> Go to Home</button>
                             {/* <Link to={"/"}  className='link'>Home</Link> */}
                             <Link to={"/About"} className='link'>About</Link>
                             <Link to={"/Services"} className='link'>Services</Link>
@@ -52,6 +51,7 @@ export default function About() {
                     </NavbarCollapse>
                 </Container>
             </Navbar>
+            <button onClick={handleBtn} className='handl-btn'> Go to Home</button>
 
 
         </>

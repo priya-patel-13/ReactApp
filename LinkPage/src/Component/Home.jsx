@@ -26,7 +26,9 @@ export default function Home() {
                             style={{ maxHeight: '100px' }}
                             navbarScroll
                         >
-                            <h1>{location.state.name}</h1>
+                            {
+                                location.name && <h1>{location.state.name}</h1>
+                            }
                             <Link to={`/About/${data}`} className='link'>About</Link>
                             <Link to={"/Services"} className='link'>Services</Link>
                             <Link to={"/Blog"} className='link'>Blog</Link>

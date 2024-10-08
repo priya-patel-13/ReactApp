@@ -64,6 +64,12 @@ export default function Services() {
             <h1 className='m-3 p-2'>Fresh Vegetables</h1>
         </Col>
       </Row>
+
+      <Row>
+        <Col>
+        <p className='p1'>What do you look for when buying fresh vegetables and where can you purchase fresh vegetables? One of the places Michigan State University Extension recommends shopping for fresh vegetables is farmers market. Farmers markets provide an opportunity for consumers to purchase locally grown vegetables, but what if they have not reached their peak or if they have passed their peak?</p>
+        </Col>
+      </Row>
     </Container>
 
 

@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 export default function Home({data}) {
   return (
     <div className='home'>
-      <h1>HOME</h1>
-     <table border="1"   width="50%">
+      <h1 className='h1'>HOME</h1>
+     <table   width="50%">
 
         <thead >
             <tr>

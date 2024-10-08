@@ -1,25 +1,35 @@
 
 body{
   height: 75vh;
+  color: navy;
   text-align: center;
   padding-top: 150px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url();
+    background-image: url(https://img.freepik.com/free-vector/watercolor-colorful-butterfly-background_23-2150127741.jpg?t=st=1728370801~exp=1728374401~hmac=ce9ac3f58178b619f608e36e45e832b53a1bea0cf3206f881f4ede4b9d98a320&w=996);
+
 }
 
 table{
    padding: 3%;
    margin-left: 25%;
-
+   /* border: 1px solid rgb(47, 171, 199); */
+   box-shadow: rgba(7, 29, 226, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 thead{
   height: 55px;
-
+  font-size: 23px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 tr{
-  height: 40px;
+  height: 48px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+td{
+  box-shadow: rgba(6, 27, 220, 0.25) 0px 6px 12px -2px, rgba(7, 41, 211, 0.3) 0px 3px 7px -3px;
+
 }
 button{
   height: 70px;
@@ -28,25 +38,49 @@ button{
   background-color: transparent;
   border: none;
   margin-left: -8%;
-
 }
 button .links{
-  border: 1px solid;
+  /* border: 1px solid; */
   margin: 10%;
   padding: 15px 50px;
   font-size: 16px;
+  background-image: url(https://img.freepik.com/free-vector/abstract-background-with-waves-glow-vector-illustration-blue-background_1182-2338.jpg?t=st=1728369212~exp=1728372812~hmac=811bad475ab033e1d59354e28b254dfd160fe6caaaca4870e2afea6157742c4d&w=996);
+
+  background-position: center;
+  background-size: cover;
+  color: navy;
+  
 }
 
 input{
   height: 40px;
   width: 400px;
   border: none;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid navy;
+  background-color: transparent;
 }
 .btn1{
-  height: 40px;
-  border: 1px solid;
-  width: 120px;
+  height: 45px;
+  /* border: 1px solid; */
+  width: 150px;
   margin-left: 1%;
   margin-top: 2%;
+  background-image: url(https://img.freepik.com/free-vector/abstract-background-with-waves-glow-vector-illustration-blue-background_1182-2338.jpg?t=st=1728369212~exp=1728372812~hmac=811bad475ab033e1d59354e28b254dfd160fe6caaaca4870e2afea6157742c4d&w=996);
+  font-size: 16px;
+  background-position: center;
+  background-size: cover;
+  color: navy;
+
+}
+::placeholder{
+  padding: 3%;
+  color: rgb(9, 170, 219);
+}
+
+.h1{
+ background: url(https://img.freepik.com/free-photo/botanical-leaves_23-2148121707.jpg?t=st=1728371572~exp=1728375172~hmac=86cf9f28d0a00c49f35dbb64aadb2618c30c2c4c32b564b3ca0f798e28dcca35&w=996) 50% 50%;
+  -webkit-background-clip: text ;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+  margin-top: -5%;
 }

@@ -1,0 +1,84 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: url('https://img.freepik.com/free-photo/pink-gerbera-flower-with-petals-blue-table_23-2148069182.jpg?t=st=1728461135~exp=1728464735~hmac=3d4aa654b21ee8159f02d537107699af0f6c96d516492d3c339de006078ee02e&w=1380') no-repeat center center fixed;
+  background-size: cover;
+  backdrop-filter: blur(2px); 
+  background-attachment: fixed;
+  color: #fff; 
+  overflow-x: hidden;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 12px 16px;
+  margin: 20px 10%;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  font-size: 18px;
+  outline: none;
+  transition: box-shadow 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.7);
+  color: #333;
+  text-transform: capitalize;
+  position: sticky;
+  top: 0; 
+  z-index: 1000; 
+  background-clip: padding-box; 
+}
+
+input[type="text"]:focus {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+.col .img{
+  padding: 10px;
+  text-align: center;
+}
+
+
+.box1 {
+  background-color: rgba(255, 255, 255, 0.9); 
+  width: 50%; 
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden; 
+  display: flex;
+  flex-direction: column; 
+  color: #333;
+  margin-left: 25%;
+  padding: 20px;
+  margin-top: 30px;
+
+}
+
+
+
+.img img {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.text {
+  padding: 15px;
+  text-align: left;
+  background-color: #fafafa;
+}
+
+.text p:first-child {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.text p:last-child {
+  color: #ff5722;
+  font-size: 18px;
+  font-weight: bold;
+}

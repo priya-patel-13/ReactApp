@@ -1,0 +1,61 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body{
+  text-align: center;
+  padding: 5%;
+  margin: 5%;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://img.freepik.com/free-vector/flower-background-blue-border-vector-remixed-from-vintage-public-domain-images_53876-140651.jpg?t=st=1729064199~exp=1729067799~hmac=fe74496c4289d9ab01952f92747c1733e42eaf2d1cc1a820958763e9dd3a4626&w=996);
+}
+li{
+  list-style: none;
+}
+h1{
+  margin: 3%;
+  font-size: 60px;
+  color: #1F5180;
+  text-decoration: underline;
+}
+.in{
+  margin: 1%;
+  height: 45px;
+  width: 350px;
+  background-position: center;
+  background-size: cover;
+  border: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background-image: url(https://img.freepik.com/free-photo/bouquet-fresh-beautiful-blooms_23-2148024638.jpg?t=st=1729151724~exp=1729155324~hmac=5a9e24ad5acff7251541e969876d0cf5906ba827895b747500fb9aee9066abad&w=996);
+}
+::placeholder{
+  padding: 4%;
+  font-size: 18px;
+  color: #1F5180;
+  font-family: 'Times New Roman', Times, serif;
+}
+button{
+  margin: 2%;
+  height: 45px;
+  width: 150px;
+  color:navy;
+  font-size: 18px;
+  background-image: url(https://img.freepik.com/free-vector/watercolor-floral-background-pastel-colors-with-copy-space_23-2148423890.jpg?t=st=1729152185~exp=1729155785~hmac=41c47d2d9eed2a74564223be4006c5d6291a052cf531ff72c5e2fc43ba45b33e&w=996);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  background-position: center;
+  background-size: cover;
+  border: none;
+  font-weight: bolder;
+}
+button:hover{
+  background-image: url(https://img1.picmix.com/output/stamp/normal/3/4/7/6/2556743_b239a.gif);
+  background-position: center;
+  background-size: cover;
+}
+p{
+  color: navy;
+  font-size: 24px;
+  padding: 2%;
+}

@@ -3,14 +3,16 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background: url('') no-repeat center center/cover; /* Replace with your background image */
+    background: url('https://img.freepik.com/free-photo/pink-acrylic-background-with-gold-elements_53876-104013.jpg?t=st=1729757493~exp=1729761093~hmac=1cf7342b451e257b87d19693927e257ba91a320256f071c7af411b9fd3acc9f5&w=1380') no-repeat center center/cover; /* Replace with your background image */
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    overflow: hidden;
+    overflow: scroll;
   }
-  
+  ::-webkit-scrollbar{
+    display: none;
+  }
   /* Animation for background image */
   @keyframes backgroundSlide {
     0% { background-position: 0% 50%; }
@@ -23,65 +25,116 @@ body {
   }
   
   h1 {
-    color: #fff;
+   background: url(https://img.freepik.com/free-vector/stars-universe_1035-19109.jpg?t=st=1729763049~exp=1729766649~hmac=bb1a11748e27b935a105c415b826efd9a26048263be190573399f6a8f03fba38&w=996) 50% 50%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
     text-align: center;
     font-size: 3em;
     margin-bottom: 30px;
+    font-family: "Rowdies", sans-serif;
+    letter-spacing: 2px;
+    font-style: italic;
+  }
+
+  h3{
+    background: url(https://img.freepik.com/free-vector/cleaning-foam-gradient-background_598544-476.jpg?t=st=1729763442~exp=1729767042~hmac=50d571064b2b7d8be021fa55491c40d049a1cd0e11e38786cf9e0707001a4880&w=1380)50% 50%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: "Rowdies", sans-serif;
+    letter-spacing: 2px;
+    font-style: italic;
+
   }
   
   input[type="number"],
   input[type="text"] {
-    width: 250px;
-    padding: 10px;
+    width: 300px;
+    color: #c01484;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    padding: 11px;
     margin: 10px 0;
     border-radius: 8px;
     border: 1px solid #ddd;
     outline: none;
     font-size: 16px;
     transition: all 0.3s ease;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://img.freepik.com/free-vector/blank-floral-shimmering-wallpaper_53876-112102.jpg?t=st=1729758358~exp=1729761958~hmac=90544af070e09b998a3f7e820bb6b8d28a5407a61071b3fa92f0878b60bcd56b&w=996);
   }
   
   input[type="number"]:focus,
   input[type="text"]:focus {
-    border-color: #007bff;
+    border-color:#c01484 ;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
   }
   
-  button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    border: none;
-    color: white;
-    font-size: 16px;
-    border-radius: 8px;
-    cursor: pointer;
-    margin: 10px 0;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-  }
+
   
-  button:hover {
-    background-color: #0056b3;
-    transform: scale(1.05);
-  }
-  
-  /* Hover effect for product list */
   .div ul:hover {
     background-color: rgba(0, 123, 255, 0.1);
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
   }
+  button {
+    background: linear-gradient(45deg, #c01484, #d67d8c, #c01484, #e344b3, #74cce4);
+    background-size: 400% 400%;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 12px 28px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    animation: gradientShift 10s ease infinite; 
+}
+
+button:hover {
+    background-position: 100% 0;
+    transform: scale(1.1); 
+}
+
+button:active {
+    transform: scale(0.95); 
+    background-position: 0 100%; 
+}
+
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
   
-  /* Form sections styling */
-  .one,
-  .two {
+   
+  .one {
     background-color: rgba(255, 255, 255, 0.9);
-    padding: 30px;
+    padding: 28px;
     margin-bottom: 20px;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
-    max-width: 400px;
+    max-width: 500px;
     text-align: center;
     transition: transform 0.3s ease;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://img.freepik.com/free-vector/cherry-blossom-frame-card_53876-93702.jpg?t=st=1729757900~exp=1729761500~hmac=102fe421d0f543268583e6fcbc1f489214395442c47e34b06f1910cab5c8a573&w=996);
+  }
+
+  .two {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 50px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    max-width: 500px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://img.freepik.com/free-vector/cherry-blossom-frame-card_53876-93702.jpg?t=st=1729757900~exp=1729761500~hmac=102fe421d0f543268583e6fcbc1f489214395442c47e34b06f1910cab5c8a573&w=996);
   }
   
   .one:hover,
@@ -98,17 +151,19 @@ body {
   .div {
     margin-top: 20px;
     max-width: 400px;
+    margin-left: 18%;
+    background-image: url(https://img.freepik.com/free-vector/cherry-blossom-frame-card_53876-93702.jpg?t=st=1729757900~exp=1729761500~hmac=102fe421d0f543268583e6fcbc1f489214395442c47e34b06f1910cab5c8a573&w=996);
   }
   
   .div ul {
-    background-color: rgba(255, 255, 255, 0.9);
+    /* background-color: rgba(255, 255, 255, 0.9); */
     list-style: none;
     padding: 15px;
     margin: 10px 0;
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     transition: all 0.3s ease;
   }
   
@@ -117,6 +172,11 @@ body {
     color: #555;
   }
   
+::placeholder{
+    color: #e670bc;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
   /* Responsive Design */
   @media (max-width: 768px) {
     .one,

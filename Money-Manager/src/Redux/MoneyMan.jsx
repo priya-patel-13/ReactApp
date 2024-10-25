@@ -43,7 +43,7 @@ export default function MoneyMan() {
             <center>
                 
             <div className="one">
-            <h3>{Data}</h3> <br />
+            <h3>${Data}</h3> <br />
             <input
                 type="number" placeholder='Enter budget' value={count} onChange={(e) => setCount(e.target.value)} />
           <br />  <br /> <button onClick={handleAddBudget}>Add Budget   &nbsp; &nbsp; +</button>
@@ -53,8 +53,9 @@ export default function MoneyMan() {
 
             
                 <center>
-                <div className="two">
+                <div className="two"><br /><br />
              <input type="number" placeholder='Enter Product Price' value={addAmount} onChange={(e) => setAddAmount(e.target.value)}/>
+                
             <input type="text" placeholder='Enter Product Name' value={addProduct} onChange={(e) => setAddProduct(e.target.value)}/>
           <br /><br />
             <button onClick={handleAddProduct}>Add Product  &nbsp; &nbsp; +</button>
@@ -66,8 +67,8 @@ export default function MoneyMan() {
                 productList &&
                 productList.map((e, i) => {
                     return <ul key={i}>
-                        <li>{e.addAmount}</li>
-                        <li>{e.addProduct}</li>
+                        <li> ${e.addAmount}</li>
+                        <li> {e.addProduct}</li>
                     </ul>
                      
                 })

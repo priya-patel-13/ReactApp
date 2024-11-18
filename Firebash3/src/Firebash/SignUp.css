@@ -1,0 +1,51 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://img.freepik.com/free-vector/black-background-geometric-gradient-design_677411-2884.jpg?t=st=1731835356~exp=1731838956~hmac=6a30c1685c799a9cf8a44e90249008d76ec01788d74f4ecef37fc340b78023e4&w=1060);
+    background-position: center;
+    background-size: cover;
+}
+.main{
+    /* border: 2px solid red; */
+    width: 450px;
+    height: 450px;
+    margin-left: 550px;
+    text-align: center;
+    box-shadow: rgba(233, 235, 236, 0.12) 10px 10px 10px 10px, rgba(233, 235, 236, 0.32) 10px 10px 10px 10px;
+}
+input {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease; 
+    color: red;
+}
+input:hover {
+    border-color: #007bff;
+    background-color: #f1f1f1;
+    transform: scale(1.05);
+}    
+input:focus {
+    border-color: #007bff; /* Highlight border color */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add glow effect */
+}
+input {
+    animation: slideIn 0.5s ease-out; /* Apply the animation */
+}
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px); /* Start position off to the left */
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0); /* End position */
+    }
+}

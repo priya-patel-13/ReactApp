@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+ 
+  .contact-form-container {
+    width: 800px;
+    margin: auto;
+    padding: 40px;
+    background-color: #222;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1);
+    margin-left: 500px;
+    margin-top: 100px;
+  }
+  
+  .contact-form-container:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Heading styling */
+  .contact-heading {
+    color: #00aaff;
+    font-size: 1.8em;
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 1.5px;
+  }
+  
+  /* Form styling */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  /* Input styling */
+  .form-input, .form-textarea {
+    width: 100%;
+    padding: 15px;
+    background-color: #333;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1em;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  .form-input:focus, .form-textarea:focus {
+    border-color: #00aaff;
+    box-shadow: 0px 4px 8px rgba(0, 170, 255, 0.5);
+    transform: translateY(-2px);
+  }
+  
+  .form-input:hover, .form-textarea:hover {
+    background-color: #444;
+  }
+  
+  /* Textarea styling */
+  .form-textarea {
+    height: 120px;
+    resize: none;
+  }
+  
+  .submit-button {
+    padding: 15px;
+    background: none;
+    /* background: linear-gradient(45deg, #00aaff, #0077cc); */
+    border: none;
+    border-radius: 5px;
+    color: #0077cc;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid #0077cc;
+    transition: background 0.4s ease, transform 0.2s ease;
+  }
+  
+  .submit-button:hover {
+    background: linear-gradient(45deg, #0077cc, #00aaff);
+    transform: translateY(-3px);
+    color: white;
+
+  }
+  
+  .submit-button:active {
+    transform: translateY(1px);
+    background: #5f9ac4;
+  }
+  
+  /* Placeholder Styling */
+  .form-input::placeholder, .form-textarea::placeholder {
+    color: #00aaff;
+    font-style: italic;
+  }
+  
+  /* Floating Label Animation */
+  .form-input:not(:placeholder-shown):not(:focus) + label,
+  .form-textarea:not(:placeholder-shown):not(:focus) + label {
+    top: -15px;
+    left: 5px;
+    font-size: 0.8em;
+    color: #00aaff;
+    background-color: #222;
+    padding: 0 5px;
+  }
+  
+  @media (max-width: 450px) {
+    .contact-form-container {
+      width: 90%;
+      padding: 20px;
+    }
+  }
+  
